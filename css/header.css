@@ -1,0 +1,228 @@
+.header1 {
+    background-color: #ffe600;
+    padding: 10px 0;
+    width: 100%;
+  }
+  
+  .header1 .container {
+    max-width: 1348px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .header1 img {
+    height: 40px;
+  }
+  
+  .header1 .search-box {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+    max-width: 600px;
+  }
+  
+  .header__search {
+    color: rgba(0, 0, 0, .8980392157);
+    font-size: 16px;
+    margin: 0;
+    font-family: inherit;
+    border-radius: 2px;
+    gap: 20px;
+    background-color: #fff;
+    display: flex
+  ;
+    justify-content: space-between;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    height: 40px;
+    max-width: 60%;
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    margin: 0 10px;
+  }
+  .header__search input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+  }
+  .header1 button {
+    padding: 10px 15px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .header1 button:hover {
+    background-color: #000;
+  }
+  
+  .header1 .cart {
+    display: flex;
+    align-items: center;
+    fill: black;
+  }
+  
+  .header1 .cart:hover svg {
+    fill: #ff6600;
+  }
+  
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 70px;
+  }
+  
+  .header__left-block {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+  }
+  
+  .header__logo {
+    height: 30px;
+    fill: #fff;
+  }
+  
+  .header__right-block {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__right-block > * + * {
+    margin-left: 18px;
+  }
+  
+  .header__icon-wrap {
+    background: #fff;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    border-radius: 50%;
+  }
+  
+  .header__icon {
+    margin: auto;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+  }
+  
+  .header__icon-menu {
+    min-width: 24px;
+    height: 24px;
+    fill: #fff;
+  }
+  
+  .header__search {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0 30px;
+  }
+  
+  .header__search button {
+    background-color: #fff;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__search button svg {
+    fill: #918e8c;
+  }
+  
+  .header__search input {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: none !important;
+    border-radius: 0 8px 8px 0;
+    padding: 0 48px 0 0;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #fff;
+    margin-left: -1px;
+  }
+  
+  .header__search-bottom {
+    display: none;
+    margin: 0 0 15px;
+  }
+  
+  .js-slider-nav .slick-slide {
+    max-height: 110px;
+  }
+  
+  @media (max-width: 760px) {
+    .header__search-top {
+      display: none;
+    }
+  
+    .header__search-bottom {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 440px) {
+    .header__icon-menu {
+      height: 20px;
+      fill: #fff;
+    }
+  
+    .header__logo {
+      height: 25px;
+    }
+  
+    .header__left-block {
+      gap: 10px;
+    }
+  
+    .header__icon-wrap {
+      height: 30px;
+      width: 30px;
+    }
+  
+    .header__icon {
+      width: 16px;
+      height: 16px;
+    }
+  
+    .header__right-block > * + * {
+      margin-left: 8px;
+    }
+  
+    .header-row {
+      height: 60px;
+    }
+  
+    .header__search {
+      height: 38px;
+    }
+  }
+  
